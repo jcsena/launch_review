@@ -1,6 +1,6 @@
-# launch_review
+# launch_app_store
 
-[![pub package](https://img.shields.io/pub/v/launch_review.svg)](https://pub.dartlang.org/packages/launch_review)
+[![pub package](https://img.shields.io/pub/v/launch_app_store)](https://pub.dartlang.org/packages/launch_app_store)
 
 A Flutter plugin to assist in leaving user reviews/ratings in Google Play Store and Apple App Store.
 
@@ -19,13 +19,13 @@ For iOS 9 and above, your `Info.plist` file  __MUST__ have the following:
 ```
 
 ## Usage
-To use this plugin, add `launch_review` as a [dependency in your pubspec.yaml file](https://flutter.io/platform-plugins/).
+To use this plugin, add `launch_app_store` as a [dependency in your pubspec.yaml file](https://flutter.io/platform-plugins/).
 
 ## Example
 
 Import the library via
 ``` dart
-import 'package:launch_review/launch_review.dart'; 
+import 'package:launch_app_store/launch_app_store.dart'; 
 ```
 
 Then invoke the static `launch` method of `LaunchReview` anywhere in your Dart code. If no arguments are provided, it will consider the current package.
